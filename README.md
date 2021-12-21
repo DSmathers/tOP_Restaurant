@@ -1,6 +1,6 @@
 # Project: Restaurant Page | The Odin Project
 
-## Project #3 of the Full Stack JavaScript path. (Details)[https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page]
+## Project #3 of the Full Stack JavaScript path. [Details](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page)
 
 *Started on 12/20/2021*
 
