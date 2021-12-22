@@ -6,11 +6,13 @@ import Body from "./components/Body";
 
 function App() {
   return (
+    <div id="app_wrapper">
     <Router>
       <Header />
       <Body />
       <Footer />
     </Router>
+    </div>
   );
 }
 
