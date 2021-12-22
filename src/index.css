@@ -2,9 +2,9 @@
     --color-one: #00204a;
     --color-two: #005792;
     --color-three: #00bbf0;
-    --color-four: #fdb44b;
-    
+    --color-four: #fdb44b; 
 }
+
 
 #root, body {
     margin: 0;
@@ -67,7 +67,6 @@
     text-decoration: none;
     margin-right: 1.2rem;
     text-transform: uppercase;
-    line-height: 25px;
     color: white;
 }
 
@@ -79,6 +78,72 @@
 .main_nav_link:active   {
     color: white;
 }
+
+.home-sections  {
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.menu-box-link  {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+#banner {
+    text-align: center;
+    background-color: var(--color-one);
+}
+
+#banner > h1    {
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+#banner > h2    {
+    color: var(--color-four);
+    font-weight: lighter;
+    font-style: italic;
+}
+#banner > .menu-box-link    {
+    color: white;
+}
+#banner > .menu-box-link:hover  {
+    background-color: rgba(0,0,0,.4);
+    color: white;
+}
+
+#our-pizza  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-between;
+}
+
+#our-pizza-image    {
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+#our-pizza-image > img  {
+    max-width: 100%;
+}
+
+#our-pizza-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
 
 
 #copyright  {
