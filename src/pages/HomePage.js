@@ -3,7 +3,7 @@ import Banner from './home-page-sections/Banner'
 import MainSectionThree from './home-page-sections/MainSectionThree'
 import OurPizza from './home-page-sections/OurPizza'
 
-const HomePage = ({sections}) => {
+const HomePage = () => {
     return (
         <main id="home_page">
             <Banner />

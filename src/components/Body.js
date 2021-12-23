@@ -9,7 +9,7 @@ const Body = ({}) => {
     return (
         <main id="main_view">
             <Routes basename={process.env.PUBLIC_URL}>
-                <Route path='/' element={<HomePage sections='' />} />
+                <Route path='/' element={<HomePage />} />
                 <Route path='/gift-cards' element={<GiftCards />} />
                 <Route path='/menu' element={<MenuPage items='' />} />
                 <Route path='/contact' element={<ContactPage />} />
