@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@600&display=swap');
+
 :root   {
     --color-one: #00204a;
     --color-two: #005792;
     --color-three: #00bbf0;
-    --color-four: #fdb44b; 
+    --color-four: #fdb44b;
+    --sub-font: 'PT Sans Narrow', sans-serif;
 }
 
 
 #root, body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #app_wrapper    {
@@ -201,9 +205,61 @@
 }
 
 #order-now-box-link:hover   {
-    background-color: rgba(0, 0, 0, .3)
+    background-color: rgba(0, 0, 0, .3);
 }
 
+.menu-section-title {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+.menu-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding:0;
+}
+
+
+.menu-item    {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-item-name {
+    padding: .3rem .1rem;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.menu-item-description  {
+    line-height: 1.3rem;
+    margin: 0px 5px;
+    font-family: var(--sub-font);
+    height: 5rem;
+}
+
+.menu-item-price-list   {
+    list-style: none;
+    padding:0;
+}
+
+.menu-item-price-list > li  {
+    margin-top: 10px;
+}
 
 
 
