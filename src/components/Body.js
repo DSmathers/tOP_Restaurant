@@ -7,8 +7,9 @@ import ContactPage from '../pages/ContactPage'
 const Body = () => {
     return (
         <main id="main_view">
-            <Routes basename={process.env.PUBLIC_URL}>
-                <Route path='/' element={<HomePage />} />
+            <Routes>
+                <Route path="/"  element={<HomePage />} />
+                <Route path="/home" element={<HomePage />} />
                 <Route path='/menu' element={<MenuPage/>} />
                 <Route path='/contact' element={<ContactPage />} />
             </Routes>
