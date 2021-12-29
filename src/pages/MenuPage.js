@@ -64,10 +64,24 @@ const MenuPage = () => {
                         <div key={salad} className="menu-item">
                         <h3 className="menu-item-name">{salad}</h3>
                         <p className="menu-item-description">{saladMenu[salad].Description}</p>
-                        <p>${saladMenu[salad].Price}</p>
+                        <p className='menu-item-price-list'>${saladMenu[salad].Price}</p>
                         </div>
                     )
                 })}
+                </div>
+            </section>
+            <section>
+                <header className="menu-section-title"><h2>Appetizers</h2></header>
+                <div className="menu-grid">
+                    {apps.map(app => {
+                        return(
+                            <div key={app} className="menu-item">
+                            <h3 className="menu-item-name">{app}</h3>
+                            <p className="menu-item-description">{appMenu[app].Description || null}</p>
+                            <p className='menu-item-price-list'>${appMenu[app].Price}</p>
+                            </div>
+                        )
+                    })}
                 </div>
             </section>
         </>
