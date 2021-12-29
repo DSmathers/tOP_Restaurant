@@ -33,9 +33,6 @@ const MenuPage = () => {
         salads.push(key)
     }
 
-    console.log(apps, salads)
-
-
     return (
         <>
             <section>
