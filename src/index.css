@@ -265,6 +265,31 @@
 }
 
 
+#contact-page > header  {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#contact-info   {
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-bottom: 1.5rem;
+}
+
+.contact-info-heads {
+    font-style: normal;
+    font-size: 1.2rem;
+
+}
+
 
 #copyright  {
     color: white;
