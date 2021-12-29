@@ -5,13 +5,13 @@ import MenuPage from '../pages/MenuPage'
 import ContactPage from '../pages/ContactPage'
 import GiftCards from '../pages/GiftCards'
 
-const Body = ({}) => {
+const Body = () => {
     return (
         <main id="main_view">
             <Routes basename={process.env.PUBLIC_URL}>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/gift-cards' element={<GiftCards />} />
-                <Route path='/menu' element={<MenuPage items='' />} />
+                <Route path='/menu' element={<MenuPage/>} />
                 <Route path='/contact' element={<ContactPage />} />
             </Routes>
         </main>

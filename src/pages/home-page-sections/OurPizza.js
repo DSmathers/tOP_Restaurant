@@ -6,7 +6,7 @@ const OurPizza = () => {
     return (
         <section id="our-pizza" className="home-sections">
             <div id="our-pizza-image">
-               <img src={pizza}></img>
+               <img src={pizza} alt="pizza_image"></img>
             </div>
             <div id="our-pizza-text">
                 <h2>Our Pizza</h2>
