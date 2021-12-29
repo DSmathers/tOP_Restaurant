@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tOP_Restaurant/static/css/main.78fcf304.css",
+    "main.js": "/tOP_Restaurant/static/js/main.5ad973e0.js",
+    "static/media/pizza.jpg": "/tOP_Restaurant/static/media/pizza.7fb008b5034a24953963.jpg",
+    "index.html": "/tOP_Restaurant/index.html",
+    "main.78fcf304.css.map": "/tOP_Restaurant/static/css/main.78fcf304.css.map",
+    "main.5ad973e0.js.map": "/tOP_Restaurant/static/js/main.5ad973e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78fcf304.css",
+    "static/js/main.5ad973e0.js"
+  ]
+}
