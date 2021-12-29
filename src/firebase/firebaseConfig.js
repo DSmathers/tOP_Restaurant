@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API,
-    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    apiKey: "AIzaSyBbgRZ83SsH2ksimQ7lMpwUviR0U2lMtPM",
+    authDomain: "mockrestraunt.firebaseapp.com",
     databaseURL: "https://mockrestraunt-default-rtdb.firebaseio.com",
-    projectId: process.env.REACT_APP_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_SENDER_ID,
-    appId: process.env.REACT_APP_APP_ID
+    projectId: "mockrestraunt",
+    storageBucket: "mockrestraunt.appspot.com",
+    messagingSenderId: "767680958368",
+    appId: "1:767680958368:web:89b28a8962aaa2780d9ec5"
   };
   
   // Initialize Firebase
